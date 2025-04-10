@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hạnh Phúc Của Chúng Tôi | Trang Đám Cưới</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <div class="spinner-border text-light" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <!-- <h2 class="mt-3">Chào mừng đến với đám cưới của chúng tôi</h2> -->
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container text-center hero-content">
+      <h1 class="couple-names" data-aos="fade-down">Duy Nghĩa <span class="heart-icon"><i
+            class="fas fa-heart"></i></span> Diễm Hồng</h1>
+      <p class="wedding-date" data-aos="fade-up" data-aos-delay="200">20 . 10 . 2023</p>
+      <div class="countdown-container" data-aos="fade-up" data-aos-delay="400">
+        <h3>Còn lại</h3>
+        <div class="countdown">
+          <div class="countdown-item">
+            <span id="days">00</span>
+            <span>Ngày</span>
+          </div>
+          <div class="countdown-item">
+            <span id="hours">00</span>
+            <span>Giờ</span>
+          </div>
+          <div class="countdown-item">
+            <span id="minutes">00</span>
+            <span>Phút</span>
+          </div>
+          <div class="countdown-item">
+            <span id="seconds">00</span>
+            <span>Giây</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Duy Nghĩa & Diễm Hồng</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#couple">Cô Dâu & Chú Rể</a></li>
+          <li class="nav-item"><a class="nav-link" href="#story">Câu Chuyện</a></li>
+          <li class="nav-item"><a class="nav-link" href="#event">Sự Kiện</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Album Ảnh</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gifts">Quà Mừng</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rsvp">Thiệp Mời</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Couple Section -->
+  <section id="couple" class="section-padding">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Cô Dâu & Chú Rể</h2>
+        <div class="heart-divider">
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+
+      <div class="row couple-container">
+        <div class="col-md-5" data-aos="fade-right">
+          <div class="couple-card">
+            <img src="images/bride.jpg" alt="Cô dâu" class="img-fluid">
+            <div class="couple-info">
+              <h3>Diễm Hồng</h3>
+              <p>Cô dâu xinh đẹp</p>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+              <p class="bio">Sinh ra và lớn lên tại Hà Nội, Diễm Hồng là một kiến trúc sư tài năng với tình yêu lớn dành
+                cho nghệ thuật và du lịch.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 d-flex align-items-center justify-content-center" data-aos="fade-up">
+          <div class="couple-heart">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="col-md-5" data-aos="fade-left">
+          <div class="couple-card">
+            <img src="images/groom.jpg" alt="Chú rể" class="img-fluid">
+            <div class="couple-info">
+              <h3>Duy Nghĩa</h3>
+              <p>Chú rể hào hoa</p>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <p class="bio">Duy Nghĩa là một doanh nhân trẻ thành đạt với niềm đam mê thể thao và âm nhạc. Anh đến từ
+                thành phố Hồ Chí Minh.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Love Story Section -->
+  <section id="story" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Câu Chuyện Tình Yêu</h2>
+        <div class="heart-divider">
+          <i class="fas fa-heart"></i>
+        </div>
+        <p>Hành trình đến với hạnh phúc của chúng tôi</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-content">
+            <h3>Gặp Gỡ Đầu Tiên</h3>
+            <!-- <span class="date">Tháng 8, 2018</span>
+            <p>Chúng tôi gặp nhau trong một buổi triển lãm nghệ thuật tại Hà Nội. Ngay từ cái nhìn đầu tiên, cả hai đều
+              cảm nhận được sự kết nối đặc biệt.</p> -->
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-content">
+            <h3>Lần Đầu Hẹn Hò</h3>
+            <!-- <span class="date">Tháng 10, 2018</span>
+            <p>Buổi hẹn đầu tiên tại một quán cà phê nhỏ ven hồ. Chúng tôi đã nói chuyện không ngừng trong 5 tiếng đồng
+              hồ.</p> -->
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-content">
+            <h3>Yêu Nhau</h3>
+            <!-- <span class="date">Tháng 12, 2018</span>
+            <p>Sau nhiều lần hẹn hò và những chuyến đi chơi cùng nhau, chúng tôi chính thức trở thành một cặp vào đêm
+              Giáng Sinh.</p> -->
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-content">
+            <h3>Chung Sống</h3>
+            <!-- <span class="date">Tháng 6, 2020</span>
+            <p>Chúng tôi quyết định chuyển về sống chung tại một căn hộ nhỏ ở trung tâm thành phố, bắt đầu xây dựng tổ
+              ấm của riêng mình.</p> -->
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-content">
+            <h3>Cầu Hôn</h3>
+            <!-- <span class="date">Tháng 2, 2023</span>
+            <p>Trong chuyến du lịch Đà Lạt, dưới ánh hoàng hôn tại đồi Robin, Đức Huy đã quỳ xuống cầu hôn Minh Anh với
+              chiếc nhẫn tự thiết kế.</p> -->
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-content">
+            <h3>Đám Cưới</h3>
+            <!-- <span class="date">Tháng 10, 2023</span>
+            <p>Và bây giờ, chúng tôi sẽ chính thức trở thành vợ chồng, bắt đầu một chương mới trong cuộc đời cùng nhau.
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Event Details Section -->
+  <section id="event" class="section-padding">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Thông Tin Sự Kiện</h2>
+        <div class="heart-divider">
+          <i class="fas fa-heart"></i>
+        </div>
+        <p>Hãy cùng chúng tôi chia sẻ niềm vui trong ngày trọng đại</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="event-card">
+            <div class="event-header">
+              <h3>Lễ Cưới</h3>
+              <i class="fas fa-church"></i>
+            </div>
+            <div class="event-body">
+              <p><i class="fas fa-calendar-alt"></i> <strong>Ngày: </strong> ...</p>
+              <p><i class="fas fa-clock"></i> <strong>Giờ: </strong> 09:00 sáng</p>
+              <p><i class="fas fa-map-marker-alt"></i> <strong>Địa điểm: </strong> Nhà thờ giáo xứ Như Tân</p>
+              <p><i class="fas fa-info-circle"></i> <strong>Ghi chú: </strong> Xin quý khách đến trước 15 phút để ổn
+                định chỗ ngồi.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="event-card">
+            <div class="event-header">
+              <h3>Tiệc Cưới</h3>
+              <i class="fas fa-glass-cheers"></i>
+            </div>
+            <div class="event-body">
+              <p><i class="fas fa-calendar-alt"></i> <strong>Ngày: </strong> 01 tháng 05 năm 2025</p>
+              <p><i class="fas fa-clock"></i> <strong>Giờ: </strong> 11:30 trưa</p>
+              <p><i class="fas fa-map-marker-alt"></i> <strong>Địa điểm: </strong> Khách sạn InterContinental Hà Nội</p>
+              <p><i class="fas fa-info-circle"></i> <strong>Ghi chú: </strong> Tiệc sẽ bắt đầu đúng giờ, xin quý khách
+                vui lòng có mặt sớm.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5" data-aos="fade-up">
+        <a href="https://maps.google.com" class="btn btn-outline-primary btn-lg" target="_blank">
+          <i class="fas fa-map-marked-alt"></i> Xem Chỉ Đường
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Khoảnh Khắc Đẹp</h2>
+        <div class="heart-divider">
+          <i class="fas fa-heart"></i>
+        </div>
+        <p>Những hình ảnh đáng nhớ trong hành trình yêu nhau của chúng tôi</p>
+      </div>
+
+      <div class="row gallery-container">
+        <div class="col-md-4 col-sm-6 gallery-item" data-aos="zoom-in">
+          <a href="images/gallery1.jpg" data-lightbox="wedding-gallery">
+            <img src="images/gallery1-thumb.jpg" alt="Gallery Image 1" class="img-fluid">
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 gallery-item" data-aos="zoom-in" data-aos-delay="100">
+          <a href="images/gallery2.jpg" data-lightbox="wedding-gallery">
+            <img src="images/gallery2-thumb.jpg" alt="Gallery Image 2" class="img-fluid">
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 gallery-item" data-aos="zoom-in" data-aos-delay="200">
+          <a href="images/gallery3.jpg" data-lightbox="wedding-gallery">
+            <img src="images/gallery3-thumb.jpg" alt="Gallery Image 3" class="img-fluid">
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 gallery-item" data-aos="zoom-in">
+          <a href="images/gallery4.jpg" data-lightbox="wedding-gallery">
+            <img src="images/gallery4-thumb.jpg" alt="Gallery Image 4" class="img-fluid">
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </a>
+        </div>
+
+        <!-- <div class="col-md-4 col-sm-6 gallery-item" data-aos="zoom-in" data-aos-delay="100">
+          <a href="images/gallery5.jpg" data-lightbox="wedding-gallery">
+            <img src="images/gallery5-thumb.jpg" alt="Gallery Image 5" class="img-fluid">
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 gallery-item" data-aos="zoom-in" data-aos-delay="200">
+          <a href="images/gallery6.jpg" data-lightbox="wedding-gallery">
+            <img src="images/gallery6-thumb.jpg" alt="Gallery Image 6" class="img-fluid">
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Gifts Section -->
+  <section id="gifts" class="section-padding">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Quà Mừng</h2>
+        <div class="heart-divider">
+          <i class="fas fa-heart"></i>
+        </div>
+        <p>Sự hiện diện của bạn là món quà lớn nhất với chúng tôi</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="gift-card">
+            <h3>Lời Nhắn</h3>
+            <p>Nếu bạn muốn gửi tặng chúng tôi một món quà, xin hãy cân nhắc việc đóng góp vào quỹ hạnh phúc của chúng
+              tôi để giúp chúng tôi thực hiện những dự định tương lai.</p>
+            <p>Mọi sự đóng góp đều được trân trọng và biết ơn.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="gift-card">
+            <h3>Chuyển Khoản Mừng</h3>
+            <div class="bank-info">
+              <p><strong>Tên tài khoản:</strong> Diễm Hồng </p>
+              <p><strong>Số tài khoản:</strong> 1234 5678</p>
+              <p><strong>Ngân hàng:</strong> Vietcombank - Chi nhánh Hà Nội</p>
+            </div>
+            <div class="qr-code text-center mt-4">
+              <!-- <img src="images/qr-code.png" alt="QR Code" class="img-fluid" style="max-width: 200px;"> -->
+              <p class="mt-2">Quét mã QR để chuyển tiền</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RSVP Section -->
+  <!-- <section id="rsvp" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Thiệp Mời</h2>
+        <div class="heart-divider">
+          <i class="fas fa-heart"></i>
+        </div>
+        <p>Xin vui lòng xác nhận tham dự trước ngày 10/10/2023</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="zoom-in">
+          <div class="rsvp-card">
+            <form id="rsvpForm">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">Họ và tên *</label>
+                    <input type="text" class="form-control" id="name" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="phone">Số điện thoại *</label>
+                    <input type="tel" class="form-control" id="phone" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="guests">Số lượng khách *</label>
+                    <select class="form-control" id="guests" required>
+                      <option value="1">1 người</option>
+                      <option value="2">2 người</option>
+                      <option value="3">3 người</option>
+                      <option value="4">4 người</option>
+                      <option value="5">5 người</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="attending">Bạn sẽ tham dự? *</label>
+                <div class="attending-options">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="attending" id="attendingYes" value="yes" checked
+                      required>
+                    <label class="form-check-label" for="attendingYes">Có, tôi sẽ đến</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="attending" id="attendingNo" value="no" required>
+                    <label class="form-check-label" for="attendingNo">Xin lỗi, tôi không thể đến</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Lời nhắn (nếu có)</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+
+              <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary btn-lg">Gửi Phản Hồi</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Duy Nghĩa & Diễm Hồng</h3>
+          <p>Hạnh phúc không phải là điểm đến, mà là hành trình chúng ta cùng nhau trải qua.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Liên Hệ</h3>
+          <p><i class="fas fa-phone"></i> (+84) 123 456 789</p>
+          <!-- <p><i class="fas fa-envelope"></i> minhanh.ducuy@wedding.com</p> -->
+        </div>
+        <div class="col-md-4">
+          <h3>Theo Dõi Chúng Tôi</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright text-center mt-5">
+        <p>&copy; 2023 Đám cưới Duy Nghĩa & Diễm Hồng. Thiết kế với <i class="fas fa-heart"></i> bởi Peter Nguyen.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> -->
+
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
